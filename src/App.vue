@@ -1,6 +1,9 @@
 <template>
-  <navigation-bar></navigation-bar>
-  <router-view></router-view>
+<navigation-bar></navigation-bar>
+  <div class="container mt-5">
+    <router-view></router-view>
+  </div>
+
   <footer-view></footer-view>
 </template>
 
