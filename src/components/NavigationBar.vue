@@ -1,21 +1,23 @@
 <template>
-    <nav class="navbar navbar-expand-lg">
-  <RouterLink to="/" class="navbar-brand" href="#">{{ brand }}</RouterLink>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <RouterLink to="/" class="nav-link" href="#">Home</RouterLink>
-      </li>
-      <li class="nav-item">
-        <RouterLink to="/projects" class="nav-link" href="#">Projects</RouterLink>
-      </li>
-      <li class="nav-item">
-        <RouterLink to="/contact" class="nav-link" href="#">Contact</RouterLink>
-      </li>
-    </ul>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <RouterLink to="/" class="navbar-brand" href="#">Luis Duran</RouterLink>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <RouterLink to="/" class="nav-link active" aria-current="page" href="#">Home</RouterLink>
+        </li>
+        <li class="nav-item">
+          <RouterLink to="/projects" class="nav-link" href="#">Projects</RouterLink>
+        </li>
+        <li class="nav-item">
+          <RouterLink to="/contact" class="nav-link" href="#">Contact</RouterLink>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
 </template>
